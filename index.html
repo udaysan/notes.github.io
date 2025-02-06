@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My notes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .button-container {
+            text-align: center;
+        }
+        .button-container button {
+            font-size: 18px;
+            padding: 10px 20px;
+            margin: 10px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        .button-container button:hover {
+            background-color: #45a049;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        main {
+            margin: 20px;
+        }
+        .learning-point {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        h2 {
+            color: #333;
+        }
+        .point-title {
+            font-weight: bold;
+            color: #4CAF50;
+        }
+        .point-content {
+            margin-top: 10px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Notes</h1>
+    </header>
+    
+    <main>
+
+        <section id="ALLTransactions" class="b All">
+
+            <div id="ALL" class="button-container">
+
+                <fieldset id="fieldset">
+                    <legend>Topics</legend>
+                    <button onclick="window.location.href='devops.html'">DevOps</button>
+                    <button onclick="window.location.href='git.html'">Git</button>
+                    <button onclick="window.location.href='azure_pipeline.html'">Azure Pipeline</button>
+                    <button onclick="window.location.href='docker.html'">Docker</button>
+                    <button onclick="window.location.href='kubernetes.html'">Kubernetes</button>
+                    <button onclick="window.location.href='react.html'">React</button>
+                    <button onclick="window.location.href='sql.html'">SQL</button>
+                </fieldset>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
